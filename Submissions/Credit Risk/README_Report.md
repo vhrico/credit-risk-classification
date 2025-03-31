@@ -50,7 +50,7 @@ weighted avg       0.99      0.99      0.99     15508
 - The model perfectly predicted on **Class 0** (likely due to its dominance in the dataset).  
 - For **Class 1**, the model is quite good (F1-score = 0.91), though **precision (0.89)** is slightly lower than **recall (0.93)**, meaning the model makes some false positive errors (misclassifying Class 0 as Class 1).  
 - Since the dataset is highly **imbalanced** (Class 0 has more samples than Class 1), the **high performance on Class 0 might indicate a bias toward the majority class**.  
-This bias can impact the results and create a situation in denying eligeble borrows a loan (More likely) or putting the lending institution at risk by providing loans to high risk borrowers.
+- This bias can impact the results and create a situation in denying eligeble borrows a loan (More likely) or putting the lending institution at risk by providing loans to high risk borrowers.
 
 I would still recommend the Logistic Regression model as a predictive tool for Healthy and High-risk Loans. It had a high accuracy overall and high scores on all other metrics. 
 
