@@ -31,20 +31,17 @@ weighted avg       0.99      0.99      0.99     15508
 - **Class 0 Healthy Loan** (Majority class, with 15,008 samples)  
 - **Class 1 High-Risk Loan** (Minority class, with 500 samples)  
     
-    * Description of Model Accuracy scores:
 #### ** Accuracy**
 - **0.99**
-    * Description of Model Precision scores:
+  
 #### **Precision**
 - **Class 0:** 1.00 - The model perfectly predicted all instances of Class 0 (no false positives).  
 - **Class 1:** 0.89 - When the model predicts Class 1, 89% of those predictions are correct.  
     
-    * Description of Model Recall scores:
 #### **Recall**
 - **Class 0:** 1.00 - The model correctly identified all actual Class 0 samples (no false negatives).  
 - **Class 1:** 0.93 - Out of all actual Class 1 samples, 93% were correctly identified, while 7% were misclassified as Class 0.  
     
-    * Descrption of Model f-1 Score
 #### **F1-Score**  
 - **Class 0:** 1.00 - 100% classification.  
 - **Class 1:** 0.91 - A good balance between precision (0.89) and recall (0.93).  
