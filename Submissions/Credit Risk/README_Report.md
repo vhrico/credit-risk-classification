@@ -31,7 +31,7 @@ weighted avg       0.99      0.99      0.99     15508
 - **Class 0 Healthy Loan** (Majority class, with 15,008 samples)  
 - **Class 1 High-Risk Loan** (Minority class, with 500 samples)  
     
-#### ** Accuracy**
+#### **Accuracy**
 - **0.99**
   
 #### **Precision**
